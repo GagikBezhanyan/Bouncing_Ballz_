@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+#canvas {
+    width: 90%;
+    border: 2px solid #b7aeae;
+    border-radius: 25px;
+    box-shadow: 10px 10px #673AB7;
+    background-color: #dddada;
+}
+.container {
+    margin: 0px auto;
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family:  Comic Sans MS, Comic Sans, cursive;
+}
+.title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#circleCount {
+    font-weight: bold;
+    color: red;
+}
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
